@@ -1,297 +1,489 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Kartik Soni - Robotics Engineer</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        /* Styles for the video popup */
-        .popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: 9999;
-            overflow: auto;
-        }
-
-        .popup-content {
-            position: relative;
-            margin: 10% auto;
-            padding: 20px;
-            width: 70%;
-            max-width: 800px;
-            background-color: transparent; /* Remove background color to remove borders */
-            box-shadow: none; /* Remove box-shadow to remove borders */
-        }
-
-        .close {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            font-size: 30px;
-            font-weight: bold;
-            text-decoration: none;
-            color: #fff; /* Change the color to white */
-            cursor: pointer;
-        }
-
-        .slideshow-controls {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .slideshow-controls button {
-            font-size: 24px;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-        }
-
-        .slideshow-controls button:hover {
-            color: #3498db;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Kartik soni, portfolio, Kartik, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Kartik's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Kartik Soni</title>
 </head>
-<body class="is-preload">
+<body oncontextmenu="return false">
 
-<!-- Sidebar -->
-<section id="sidebar">
-    <div class="inner">
-        <nav>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Kartik</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
             <ul>
-                <li><a href="#intro">Hello There!</a></li>
-                <li><a href="#one">Who am I</a></li>
-                <li><a href="#two">My Projects</a></li>
-                <li><a href="#three">Get in touch</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Kartik <span>Soni</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/kartik-soni-9997801a5/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://https://github.com/kartiksoni01" target="_blank"><i class="fab fa-github"></i></a></li>
+          <!-- <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/Kartik_soni" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+          <!-- <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li> -->
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/_kartik.soni_/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/Kartiksoni" target="_blank"><i class="fab fa-dev"></i></a></li> -->
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/spot.jpeg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile1.jpeg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Kartik</h3>
+        <span class="tag">Full Stack Robotics Engineer</span>
+        
+        <p> Once i was 11 years old maah daddy told me get some hobby or you'll be lonely and there i dicovered ROBOTICS! Since then it was never looking back. 
+          My passion to make cool robots drives me to work hard every day.I started tinkering with ROS three years back for fun, and 
+          little did I know that it would lead me to craft a wide range of autonomous robots, from ground-based AMRs to drones, hexapods, and even autonomous buggies.
+          My mission is clear: bring robots to life and contribute to a more innovative and entertaining world. Join me on this exciting journey of pushing the boundaries of robotics, where every day is an opportunity to create something extraordinary.   </p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> kartiksoni010@gmail.com</p>
+              <p><span> place : </span> Pune, India - 411047</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/166EtoYTcBSzQCHGSNmM6e1bbJAeHRIzK/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
     </div>
 </section>
+<!-- about section ends -->
 
-<!-- Wrapper -->
-<div id="wrapper">
+<!-- https://skillicons.dev/icons?i=ros,git,c,cpp,css,arduino,discord,docker,github,html,linux,py,vscode&perline=14 -->
+<!-- skills section starts -->
+<section class="skills" id="skills">
 
-    <!-- Intro -->
-    <section id="intro" class="wrapper style1 fullscreen fade-up">
-        <div class="inner">
-            <div style="float: left;">
-                <h1>Hello there!</h1>
-                <p>I am <strong>Kartik Soni</strong>, I bring robots to life ;)</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button scrolly">Learn more</a></li>
-                </ul>
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=ros"/>
+                <span>ROS/ROS2</span>
+              </div>
             </div>
-            <div style="float: right;">
-                <img src="images/dab.gif" alt="Your Name" class="image" />
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/gazebo.png"/>
+                <span>Gazebo</span>
+              </div>
             </div>
-        </div>
-    </section>
-
-    <!-- One -->
-    <section id="one" class="wrapper style2 spotlights">
-        <section>
-            <a href="#" class="image"><img src="images/spot.jpg" alt="" data-position="center center" /></a>
-            <div class="content">
-                <div class="inner">
-                    <h2>About Me</h2>
-                    <p>"Hey there, I'm Kartik, a robotics engineer with a knack for building robots that may or may not
-                        destroy humanity someday (just kidding!). My journey into the fascinating world of robotics began as a hobby during my engineering days
-                        at MIT School of Engineering. I started tinkering with ROS (Robot Operating System) for fun, and little did I know that it would lead me
-                        to craft a wide range of autonomous robots, from ground-based AMRs to drones, hexapods, and even autonomous buggies.
-                        So yes, while I may joke about world domination, my true mission is to bring robots to life and make the world a more innovative and entertaining place!"</p>
-                    <ul class="actions">
-                        <li><a href="#two" class="button">My Projects</a></li>
-                    </ul>
-                </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/webots.png"/>
+                <span>Webots</span>
+              </div>
             </div>
-        </section>
-    </section>
-
-    <!-- Two -->
-    <section id="two" class="wrapper style3 fade-up">
-        <div class="inner">
-            <h2>My Projects</h2>
-            <p>Here's a glimpse of some of my fascinating robot projects. I don't promise world domination, but I do promise innovation and a touch of humor along the way!</p>
-            <div class="features">
-                <!-- Project 1 -->
-                <section>
-                    <span class="icon solid major fa-robot"></span>
-                    <h3 class="project-title">SwerveDrive ROS2 controlled Robot</h3>
-                    <p>Joystick controlled four-wheel steering robot based on ROS2</p>
-                    <a href="javascript:void(0);" class="button see-videos" data-video-sources='["images/swerve_joy.mp4", "images/swerve_outdoor.mp4"]'>See Videos</a>
-                </section>
-
-                <!-- Project 2 -->
-                <section>
-                    <span class="icon solid major fa-robot"></span>
-                    <h3 class="project-title">MechanumDrive Fully Autonomous Omnidirectional Robot</h3>
-                    <p>Joystick controlled four-wheel steering robot based on ROS2</p>
-                    <a href="javascript:void(0);" class="button see-videos" data-video-sources='["images/hexapod1.mp4", "images/swerve_outdoor.mp4"]'>See Videos</a>
-                </section>
-
-                <!-- Project 3 -->
-                <section>
-                    <span class="icon solid major fa-robot"></span>
-                    <h3 class="project-title">ROS2 controlled Swarm Robots</h3>
-                    <p>Joystick controlled four-wheel steering robot based on ROS2</p>
-                    <a href="javascript:void(0);" class="button see-videos" data-video-sources='["images/swarm1.mp4"]'>See Videos</a>
-                </section>
-
-                <!-- Project 4 -->
-                <section>
-                    <span class="icon solid major fa-robot"></span>
-                    <h3 class="project-title">ROS based Autonomous E-shuttle</h3>
-                    <p>Joystick controlled four-wheel steering robot based on ROS2</p>
-                    <a href="javascript:void(0);" class="button see-videos" data-video-sources='["images/eshuttle2.mp4", "images/swerve_outdoor.mp4"]'>See Videos</a>
-                </section>
-
-                <!-- Project 5 -->
-                <section>
-                    <span class="icon solid major fa-robot"></span>
-                    <h3 class="project-title">6-legged ROS controlled Hexapod</h3>
-                    <p>Joystick controlled four-wheel steering robot based on ROS2</p>
-                    <a href="javascript:void(0);" class="button see-videos" data-video-sources='["images/hexapod1.mp4", "images/hexapod2.mp4"]'>See Videos</a>
-                </section>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=py"/>
+                <span>Python</span>
+              </div>
             </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/opencv.png"/>
+                <span>OpenCV</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=git"/>
+                <span>Git</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=github"/>
+                <span>Github</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=c"/>
+                <span>C</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=cpp"/>
+                <span>CPP</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=arduino"/>
+                <span>Arduino</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/esp32.png"/>
+                <span>ESP32</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=linux"/>
+                <span>Linux</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=docker"/>
+                <span>Docker</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=vscode"/>
+                <span>VScode</span>
+              </div>
+            </div>
+            
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/intel.svg"/>
+                <span>Intel NUCs</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://skillicons.dev/icons?i=raspberrypi"/>
+                <span>RaspberryPi</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/nvidia.svg"/>
+                <span>Jetson boards</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="./assets/images/logos/fusion.png"/>
+                <span>Fusion 360</span>
+              </div>
+            </div>
+            
+            
 
-        </div>
-        <ul class="actions">
-            <li><a href="#three" class="button">Get in touch</a></li>
-        </ul>
-    </section>
-
-    <!-- Three -->
-    <section id="three" class="wrapper style1 fade-up">
-        <div class="inner">
-            <h2>Get in touch</h2>
-            <p>Have questions or want to discuss a project? Feel free to reach out to me!</p>
-        </div>
-        <div class="inner" style="text-align: center;">
-            <section>
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field half">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="5"></textarea>
-                        </div>
-                    </div>
-                    <ul class="actions">
-                        <li><a href="" class="button submit">Send Message</a></li>
-                    </ul>
-                </form>
-            </section>
-        </div>
-        <!-- Social media icons with links -->
-        <ul class="icons">
-            <!-- Replace 'YOUR_INSTAGRAM_PROFILE_URL' and 'YOUR_LINKEDIN_PROFILE_URL' with your actual profile URLs -->
-            <li><a href="YOUR_INSTAGRAM_PROFILE_URL" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="YOUR_LINKEDIN_PROFILE_URL" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <!-- Add more social media icons and links as needed -->
-        </ul>
-    </section>
+      </div>
 </div>
+</section>
+<!-- skills section ends -->
 
-<!-- Video Popup -->
-<div id="videoPopup" class="popup">
-    <div class="popup-content">
-        <span class="close" onclick="closeVideoPopup()">&times;</span>
-        <h2 class="popup-title"></h2>
-        <video id="popupVideo" controls>
-            <!-- Video sources will be added dynamically using JavaScript -->
-        </video>
-        <div class="slideshow-controls">
-            <button onclick="plusPopupSlides(-1)">&#10094;</button>
-            <button onclick="plusPopupSlides(1)">&#10095;</button>
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/school.jpeg" alt="">
+        </div>
+        <div class="content">
+        <h3>SSC</h3>
+        <p>St. John High School</p>
+        <h4>2006-2017</h4>
         </div>
     </div>
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/hsc.png" alt="">
+      </div>
+      <div class="content">
+      <h3>HSC</h3>
+      <p>Royal Junior College of Science and Commerce</p>
+      <h4>2017-2019</h4>
+      </div>
+  </div>
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Btech Mechatronics Engineering</h3>
+        <p>MIT School of Engineering and Sciences | Pune</p>
+        <h4>2019-2023</h4>
+        </div>
+    </div>
+    
+  </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
 </div>
 
-<!-- Footer -->
-<footer id="footer" class="wrapper style1-alt">
-    <div class="inner">
-        <ul class="menu">
-            <li>&copy; Kartik Soni. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>RigBetel Labs LLP</h2>
+        </div>
+        <div class="desc">
+            <h3>Executive Robotics Engineer</h3>
+            <p>Aug 2022 - Present</p>
+        </div>
+      </div>
     </div>
-</footer>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Intelexa Technologies</h2>
+        </div>
+        <div class="desc">
+            <h3>Embedded Systems and ROS | Internship</h3>
+            <p>Feb 2022 - May 2022</p>
+        </div>
+      </div>
+    </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var videoButtons = document.querySelectorAll(".see-videos");
-        var popupVideo = document.getElementById("popupVideo");
-        var popupTitle = document.querySelector(".popup-title");
-        var slideshowControls = document.querySelector(".slideshow-controls");
-        var currentVideoIndex = 0;
-        var videoSources = [];
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>MIT Robotics Association</h2>
+        </div>
+        <div class="desc">
+            <h3>Robotics Mentor | CAD Designer</h3>
+            <p>Oct 2020 - June 2023</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        videoButtons.forEach(function (button) {
-            button.addEventListener("click", function () {
-                var videoSourceArray = JSON.parse(button.getAttribute("data-video-sources"));
-                videoSources = videoSourceArray;
-                currentVideoIndex = 0;
-                loadVideo(currentVideoIndex);
-                openVideoPopup();
-            });
-        });
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
 
-        function loadVideo(index) {
-            popupVideo.src = videoSources[index];
-            popupTitle.textContent = "Project Video " + (index + 1);
-            if (videoSources.length > 1) {
-                slideshowControls.style.display = "block";
-            } else {
-                slideshowControls.style.display = "none";
-            }
-        }
+</div>
 
-        function openVideoPopup() {
-            var videoPopup = document.getElementById("videoPopup");
-            videoPopup.style.display = "block";
-        }
+</section>
+<!-- experience section ends -->
 
-        function closeVideoPopup() {
-            var videoPopup = document.getElementById("videoPopup");
-            popupVideo.pause();
-            videoPopup.style.display = "none";
-        }
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
-        var closePopupButton = document.querySelector(".close");
-        closePopupButton.addEventListener("click", closeVideoPopup);
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
 
-        function plusPopupSlides(n) {
-            currentVideoIndex = (currentVideoIndex + n) % videoSources.length;
-            if (currentVideoIndex < 0) {
-                currentVideoIndex = videoSources.length - 1;
-            }
-            loadVideo(currentVideoIndex);
-        }
 
-        window.plusPopupSlides = plusPopupSlides;
-    });
-</script>
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Kartik's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 8108067076</p>
+          <p> <i class="fas fa-envelope"></i>kartiksoni010@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Pune, India-411047</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/kartik-soni-9997801a5/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://https://github.com/kartiksoni01" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:kartiksoni010@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <!-- <a href="https://twitter.com/Kartik_soni" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a> -->
+              <!-- <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a> -->
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/kartik-soni-9997801a5/"> Kartik Soni</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
