@@ -1,11 +1,11 @@
 [
   {
-    "name": "NotyStack Android",
+    "name": "Differential AMRs",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
     "image": "notystackandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "view": "/assets/images/preloader.gif",
       "code": "https://github.com/Kartik-soni/notystack-android"
     }
   },
