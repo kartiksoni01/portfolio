@@ -5,8 +5,7 @@
     "image": "notystackandroid",
     "category": "android",
     "links": {
-      "view": "./assets/images/preloader.gif",
-      "code": "https://github.com/Kartik-soni/notystack-android"
+      "view": "/assets/videos/divergent.mp4"
     }
   },
   {
@@ -15,8 +14,8 @@
     "image": "sppuprepandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/Kartik-soni/sppu-prep-android"
+      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j"
+
     }
   },
   {
@@ -25,8 +24,8 @@
     "image": "newsboxandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/Kartik-soni/newsbox-android"
+      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j"
+
     }
   },
   {
@@ -35,8 +34,8 @@
     "image": "weatherlyandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/Kartik-soni/weatherly-android"
+      "view": "https://www.linkedin.com/posts/Kartik-soni_androiddev-androidstudio-java-activity-6955224473822199808-JT0j"
+
     }
   },
   {
@@ -45,8 +44,8 @@
     "image": "instagrammern",
     "category": "mern",
     "links": {
-      "view": "/assets/images/preloader.gif",
-      "code": "https://github.com/Kartik-soni/instagram-mern"
+      "view": "/assets/images/preloader.gif"
+
     }
   },
   {
@@ -55,8 +54,8 @@
     "image": "flipkartmern",
     "category": "mern",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/Kartik-soni/flipkart-mern"
+      "view": "https://flipkartwebs.herokuapp.com/"
+
     }
   },
   {
@@ -65,8 +64,8 @@
     "image": "resumegen",
     "category": "mern",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/Kartik-soni/resumegen"
+      "view": "https://resumegenx.netlify.app/"
+
     }
   },
   {
@@ -75,8 +74,8 @@
     "image": "reactprojects",
     "category": "mern",
     "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
-      "code": "https://github.com/Kartik-soni/React-Projects"
+      "view": "https://reactjsprojects.herokuapp.com/"
+
     }
   },
   {
@@ -85,8 +84,8 @@
     "image": "flipkartphp",
     "category": "lamp",
     "links": {
-      "view": "https://github.com/Kartik-soni/Flipkart-Clone-PHP",
-      "code": "https://github.com/Kartik-soni/Flipkart-Clone-PHP"
+      "view": "https://github.com/Kartik-soni/Flipkart-Clone-PHP"
+
     }
   },
   {
@@ -95,8 +94,7 @@
     "image": "jspro",
     "category": "basicweb",
     "links": {
-      "view": "https://Kartik-soni.github.io/JavaScript-Projects",
-      "code": "https://github.com/Kartik-soni/JavaScript-Projects"
+      "view": "https://Kartik-soni.github.io/JavaScript-Projects"
     }
   },
   {
@@ -105,8 +103,8 @@
     "image": "webuiclones",
     "category": "mern",
     "links": {
-      "view": "https://github.com/Kartik-soni/web-ui-clones",
-      "code": "https://github.com/Kartik-soni/web-ui-clones"
+      "view": "https://github.com/Kartik-soni/web-ui-clones"
+
     }
   },
   {
@@ -115,8 +113,8 @@
     "image": "cryptotracker",
     "category": "mern",
     "links": {
-      "view": "https://crypto-tracker-react-project.netlify.app/",
-      "code": "https://github.com/Kartik-soni/React-Projects/tree/main/crypto-tracker"
+      "view": "https://crypto-tracker-react-project.netlify.app/"
+
     }
   },
   {
@@ -125,8 +123,8 @@
     "image": "hulu",
     "category": "mern",
     "links": {
-      "view": "https://hulu-clone-Kartik-soni.vercel.app/",
-      "code": "https://github.com/Kartik-soni/React-Projects/tree/main/hulu-clone"
+      "view": "https://hulu-clone-Kartik-soni.vercel.app/"
+
     }
   },
   {
@@ -135,8 +133,8 @@
     "image": "portfolio1",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "https://github.com/Kartik-soni/Portfolio-Website"
+      "view": "#"
+
     }
   },
   {
@@ -145,8 +143,8 @@
     "image": "composey",
     "category": "basicweb",
     "links": {
-      "view": "https://composey.netlify.app/",
-      "code": "https://github.com/Kartik-soni/LGMVIP-WebDev"
+      "view": "https://composey.netlify.app/"
+
     }
   },
   {
@@ -155,8 +153,8 @@
     "image": "webviewapp",
     "category": "android",
     "links": {
-      "view": "https://github.com/Kartik-soni/Android-Webview#webapp--android-webview-app",
-      "code": "https://github.com/Kartik-soni/Android-Webview"
+      "view": "https://github.com/Kartik-soni/Android-Webview#webapp--android-webview-app"
+
     }
   },
   {
@@ -165,8 +163,8 @@
     "image": "tsfbank",
     "category": "lamp",
     "links": {
-      "view": "https://tsfbank.rf.gd",
-      "code": "https://github.com/Kartik-soni/TSF-Bank"
+      "view": "https://tsfbank.rf.gd"
+
     }
   },
   {
@@ -175,8 +173,7 @@
     "image": "bootstrapportfolio",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "#"
     }
   },
   {
@@ -185,8 +182,8 @@
     "image": "bootstraptemplate",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "#"
+
     }
   },
   {
