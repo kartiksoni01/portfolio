@@ -154,6 +154,28 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
+// Fetch data for achievements
+fetchData("achievements").then(data => {
+    showAchievements(data);
+});
+
+// Function to display achievements
+function showAchievements(achievements) {
+    let achievementsContainer = document.querySelector("#achievements .achievement-container");
+    let achievementHTML = "";
+    achievements.forEach(achievement => {
+        achievementHTML += `
+        <div class="achievement">
+          <img src="${achievement.image}" alt="Achievement Image">
+          <div class="info">
+            <h3>${achievement.title}</h3>
+            <p>${achievement.details}</p>
+          </div>
+        </div>`;
+    });
+    achievementsContainer.innerHTML = achievementHTML;
+}
+
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
